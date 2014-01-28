@@ -1462,6 +1462,7 @@ a {
 	width: 112px;
 	height: 46px;
 	display: block;
+	padding: 0px;
 }
 #rt-top-surround {
 	position: relative;
@@ -2153,6 +2154,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b3b3b', end
 	-webkit-box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
 	-moz-box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
 	box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
+	padding: 0px;
 }
 @font-face {
 	font-family: 'FontAwesome';
