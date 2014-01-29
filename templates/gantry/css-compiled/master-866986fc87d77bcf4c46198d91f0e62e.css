@@ -2141,7 +2141,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', end
 #rt-drawer {
 	background: url(/pse/images/rt-drawer-background.jpg) repeat;
 	border-bottom: 1px solid #ffffff;
-	box-shadow: inset 0 -2px 4px rgba(0,0,0,0.3);
+	/*box-shadow: 2 2 2px 4px rgba(0,0,0,0.3);*/
 	padding: 0px;
 	min-height: 50px;
 }
