@@ -1455,14 +1455,13 @@ a {
 }
 .logo-block {
 	padding: 0 15px;
-	margin: 7px 10px;
+	margin: 0px 10px;
 }
 #rt-logo {
 	margin: 0;
 	width: 112px;
 	height: 46px;
 	display: block;
-	padding: 0px;
 }
 #rt-top-surround {
 	position: relative;
@@ -2021,140 +2020,130 @@ p.warning {
 	color: #c09853;
 }
 .logo-type-gantry #rt-logo {
-	background: url(../images/logo/dark/logo.png) 0 0 no-repeat;
+	background: url(../images/logo/light/logo.png) 0 0 no-repeat;
 }
 #rt-top-surround {
-	background-color: #363636;
-	background-image: -moz-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b3b3b), to(#2e2e2e));
-	background-image: -webkit-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -o-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: linear-gradient(to bottom, #3b3b3b, #2e2e2e);
+	background-color: #f1f1f1;
+	background-image: -moz-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dddddd));
+	background-image: -webkit-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -o-linear-gradient(top, #ffffff, #dddddd);
+	background-image: linear-gradient(to bottom, #ffffff, #dddddd);
 	background-repeat: repeat-x;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b3b3b', endColorstr='#ff2e2e2e', GradientType=0);
-	color: #adadad;
-	text-shadow: 0 2px 3px #000000;
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	border-bottom: 1px solid #000000;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdddddd', GradientType=0);
+	color: #6e6e6e;
+	text-shadow: 0 2px 3px #ffffff;
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	border-bottom: 1px solid #ffffff;
 }
 #rt-top-surround .title {
-	color: #ffffff;
-	text-shadow: 1px 1px 1px #000000;
+	color: #303030;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 #rt-top-surround a:hover {
-	color: #ffffff;
+	color: #303030;
 }
 #rt-top-surround:after {
 	background: url(../images/patterns/noise.png);
 }
 #rt-showcase {
-	background-color: #323232;
-	background-image: -moz-linear-gradient(top, #212121, #4c4c4c);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#212121), to(#4c4c4c));
-	background-image: -webkit-linear-gradient(top, #212121, #4c4c4c);
-	background-image: -o-linear-gradient(top, #212121, #4c4c4c);
-	background-image: linear-gradient(to bottom, #212121, #4c4c4c);
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient(top, #d7d7d7, #eeeeee);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d7d7d7), to(#eeeeee));
+	background-image: -webkit-linear-gradient(top, #d7d7d7, #eeeeee);
+	background-image: -o-linear-gradient(top, #d7d7d7, #eeeeee);
+	background-image: linear-gradient(to bottom, #d7d7d7, #eeeeee);
 	background-repeat: repeat-x;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff212121', endColorstr='#ff4c4c4c', GradientType=0);
-	color: #bbbbbb;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd7d7d7', endColorstr='#ffeeeeee', GradientType=0);
+	color: #6e6e6e;
 	border-bottom: 1px solid #ffffff;
-	-webkit-box-shadow: inset 0 -1px 0 #000000;
-	-moz-box-shadow: inset 0 -1px 0 #000000;
-	box-shadow: inset 0 -1px 0 #000000;
-	text-shadow: 0 2px 3px #000000;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+	text-shadow: 0 2px 3px #ffffff;
 }
 #rt-showcase .title {
-	color: #ffffff;
-	text-shadow: 1px 1px 1px #000000;
+	color: #303030;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 #rt-showcase a:hover {
-	color: #ffffff;
+	color: #303030;
 }
 .rt-showcase-pattern {
-	background-image: -webkit-linear-gradient(rgba(0,0,0,0.1) 2px, transparent 2px), -webkit-linear-gradient(0, rgba(0,0,0,0.1) 2px, transparent 2px), -webkit-linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px), -webkit-linear-gradient(0, rgba(0,0,0,0.1) 1px, transparent 1px);
+	background-image: -webkit-linear-gradient(rgba(0,0,0,0.03) 2px, transparent 2px), -webkit-linear-gradient(0, rgba(0,0,0,0.03) 2px, transparent 2px), -webkit-linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px), -webkit-linear-gradient(0, rgba(0,0,0,0.03) 1px, transparent 1px);
 	background-size: 80px 80px, 80px 80px, 5px 5px, 5px 5px;
 	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .title3 .title {
-	background-color: #363636;
-	background-image: -moz-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b3b3b), to(#2e2e2e));
-	background-image: -webkit-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -o-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: linear-gradient(to bottom, #3b3b3b, #2e2e2e);
+	background-color: #f1f1f1;
+	background-image: -moz-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dddddd));
+	background-image: -webkit-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -o-linear-gradient(top, #ffffff, #dddddd);
+	background-image: linear-gradient(to bottom, #ffffff, #dddddd);
 	background-repeat: repeat-x;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b3b3b', endColorstr='#ff2e2e2e', GradientType=0);
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	border-bottom: 1px solid #000000;
-	color: #ffffff;
-	text-shadow: 1px 1px 1px #000000;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdddddd', GradientType=0);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	border-bottom: 1px solid #ffffff;
+	color: #303030;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 .box3 {
-	background-color: #363636;
-	background-image: -moz-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b3b3b), to(#2e2e2e));
-	background-image: -webkit-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: -o-linear-gradient(top, #3b3b3b, #2e2e2e);
-	background-image: linear-gradient(to bottom, #3b3b3b, #2e2e2e);
+	background-color: #f1f1f1;
+	background-image: -moz-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dddddd));
+	background-image: -webkit-linear-gradient(top, #ffffff, #dddddd);
+	background-image: -o-linear-gradient(top, #ffffff, #dddddd);
+	background-image: linear-gradient(to bottom, #ffffff, #dddddd);
 	background-repeat: repeat-x;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b3b3b', endColorstr='#ff2e2e2e', GradientType=0);
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	border-bottom: 1px solid #000000;
-	color: #adadad;
-	text-shadow: 0 2px 3px #000000;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdddddd', GradientType=0);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	border-bottom: 1px solid #ffffff;
+	color: #6e6e6e;
+	text-shadow: 0 2px 3px #ffffff;
 }
 .box3 .title {
-	color: #ffffff;
-	text-shadow: 1px 1px 1px #000000;
-	border-bottom: 1px solid #212121;
-	-webkit-box-shadow: 0 1px 0 #4c4c4c;
-	-moz-box-shadow: 0 1px 0 #4c4c4c;
-	box-shadow: 0 1px 0 #4c4c4c;
+	color: #303030;
+	text-shadow: 1px 1px 1px #ffffff;
 }
 .box3 a:hover {
-	color: #ffffff;
+	color: #303030;
 }
 #rt-showcase .box3 .title, #rt-top-surround .box3 .title {
-	border-bottom: 1px solid #212121;
-	-webkit-box-shadow: 0 1px 0 #4c4c4c;
-	-moz-box-shadow: 0 1px 0 #4c4c4c;
-	box-shadow: 0 1px 0 #4c4c4c;
+	border-bottom: 1px solid #d1d1d1;
+	-webkit-box-shadow: 0 1px 0 #ffffff;
+	-moz-box-shadow: 0 1px 0 #ffffff;
+	box-shadow: 0 1px 0 #ffffff;
 }
 #rt-showcase .title3 .title, #rt-top-surround .title3 .title {
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	border-bottom: 1px solid #000000;
-}
-#rt-showcase .button:active, #rt-showcase .readon:active, #rt-showcase .readmore:active, #rt-showcase button.validate:active, #rt-showcase .formelm-buttons button:active, #rt-top-surround .button:active, #rt-top-surround .readon:active, #rt-top-surround .readmore:active, #rt-top-surround button.validate:active, #rt-top-surround .formelm-buttons button:active {
-	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.2);
-	box-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	border-bottom: 1px solid #ffffff;
 }
 .promo h1 {
-	text-shadow: 1px 2px 7px rgba(0,0,0,0.9);
+	text-shadow: 1px 1px 0 #ffffff;
 }
 .promo h1 b {
-	color: #e7ecf0;
-	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0,0,0,0.5)));
+	color: #303030;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #000000), color-stop(40%, #000000), color-stop(0%, rgba(0,0,0,0.5)));
 	mask: url(../images/mask.svg#light);
 }
 .promo p b {
-	color: #ffffff;
+	color: #303030;
 }
 #rt-drawer {
-	background: url("/pse/images/rt-drawer-background.jpg") repeat scroll 0 0 #FFFFFF;
-	border-bottom: 1px solid #000000;
-	-webkit-box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
-	-moz-box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
-	box-shadow: inset 0 -2px 4px rgba(0,0,0,0.4);
+	background: url(/pse/images/rt-drawer-background.jpg) repeat;
+	border-bottom: 1px solid #ffffff;
+	box-shadow: inset 0 -2px 4px rgba(0,0,0,0.3);
 	padding: 0px;
+	min-height: 50px;
 }
 @font-face {
 	font-family: 'FontAwesome';
