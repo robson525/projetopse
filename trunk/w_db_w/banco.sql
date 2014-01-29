@@ -12,8 +12,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- 
 -- Banco de Dados: `st_pse`
 -- 
-CREATE DATABASE `st_pse` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `st_pse`;
+
 
 -- --------------------------------------------------------
 
