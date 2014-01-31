@@ -1723,16 +1723,16 @@ INSERT INTO `jom_update_sites_extensions` (`update_site_id`, `extension_id`) VAL
 --
 
 CREATE TABLE IF NOT EXISTS `jom_usergroups` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Primary Key',
-  `parent_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Adjacency List Reference Id',
-  `lft` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set lft.',
-  `rgt` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set rgt.',
-  `title` varchar(100) NOT NULL DEFAULT '',
-  PRIMARY KEY (`id`),
+  `id` int(10) unsigned NOT NULL auto_increment COMMENT 'Primary Key',
+  `parent_id` int(10) unsigned NOT NULL default '0' COMMENT 'Adjacency List Reference Id',
+  `lft` int(11) NOT NULL default '0' COMMENT 'Nested set lft.',
+  `rgt` int(11) NOT NULL default '0' COMMENT 'Nested set rgt.',
+  `title` varchar(100) NOT NULL default '',
+  PRIMARY KEY  (`id`),
   UNIQUE KEY `idx_usergroup_parent_title_lookup` (`parent_id`,`title`),
   KEY `idx_usergroup_title_lookup` (`title`),
   KEY `idx_usergroup_adjacency_lookup` (`parent_id`),
-  KEY `idx_usergroup_nested_set_lookup` (`lft`,`rgt`) USING BTREE
+  KEY `idx_usergroup_nested_set_lookup` USING BTREE (`lft`,`rgt`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
